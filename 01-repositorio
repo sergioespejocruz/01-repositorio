@@ -1,0 +1,26 @@
+print ("Mi primer Repositorio en GIT")
+
+#Proyecto Calculadora
+
+print ("================================")
+print ("         CALCULADORA            ")
+print ("================================")
+
+Numero_1 = input("Ingresa un Numero: ")
+Numero_2 = input("Ingresa otro Numero: ")
+
+Numero_1 = float(Numero_1)
+Numero_2 = float(Numero_2)
+
+Suma = (Numero_1 + Numero_2)
+Resta = (Numero_1 - Numero_2)
+Multiplica = (Numero_1 * Numero_2)
+Division = (Numero_1 / Numero_2)
+
+Mensaje = f"""para los numeros {Numero_1} y {Numero_2}
+El resultado de Suma es {Suma}
+El resultado de Resta es {Resta}
+El resultado de Multiplica es {Multiplica}
+El resultado de Division es {Division}"""
+
+print (Mensaje)
